@@ -237,6 +237,16 @@ button:focus {
   height: 100%;
 }
 
+.particle-highlight-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: -2;
+}
+
 .home-header {
   padding-top: 80px !important;
 }

@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import CursorManager from "./components/CursorManager";
 import {
   BrowserRouter as Router,
   Route,
@@ -30,6 +31,7 @@ function App() {
 
   return (
     <Router>
+      <CursorManager />
       <Preloader load={load} />
       <div 
         className="App" 

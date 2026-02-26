@@ -26,4 +26,18 @@ body {
       transparent 1px,
       transparent 28px
     );
+  cursor: none;
+}
+
+.cursor-hidden {
+  cursor: none !important;
+}
+
+.cursor-visible {
+  cursor: auto !important;
+}
+
+/* Show cursor on interactive elements */
+button, a, input, textarea, select, [role="button"], [tabindex]:not([tabindex="-1"]) {
+  cursor: pointer !important;
 }

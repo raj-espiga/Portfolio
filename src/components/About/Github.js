@@ -8,17 +8,17 @@ function Github() {
       style={{
         justifyContent: "center",
         paddingBottom: "10px",
-        color: "white",
+        color: "black",
       }}
     >
       <h1 className="project-heading pb-4" style={{ paddingBottom: "20px" }}>
         Days I <strong className="blue">Code</strong>
       </h1>
       <GitHubCalendar
-        username="soumyajit4419"
+        username="raj-espiga"
         blockSize={30}
         blockMargin={10}
-        color="#c084f5"
+        color="#1e40af"
         fontSize={20}
       />
     </Row>
