@@ -10,21 +10,10 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              <span className="blue">ABOUT ME</span>
+              LET ME <span className="blue">INTRODUCE</span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a <b className="blue">Software Engineer</b> who enjoys turning ideas into reliable, scalable, and production-ready systems. I focus on building products that balance strong system design with practical user experience—tools that are efficient, maintainable, and built to grow.
-              <br />
-              <br />
-              My core technologies include
-              <i>
-                <b className="blue">
-                  {" "}
-                  JavaScript, TypeScript, Node.js, and PHP,{" "}
-                </b>
-              </i>
-              with experience designing <b className="blue">
-                  RESTful APIs, backend services,</b> and <b className="blue">data-driven systems.</b> Recently, I’ve been building serverless and edge-based systems using <b className="blue">Cloudflare Workers</b> and its ecosystem.
+              I’m a <b className="blue">Software Developer</b> who enjoys turning ideas into reliable, scalable, and production-ready systems. I focus on building products that balance strong system design with practical user experience—tools that are efficient, maintainable, and built to grow.
               <br />
               <br />
               Beyond implementation, I focus on building
@@ -34,7 +23,7 @@ function Home2() {
                   secure systems{" "}
                 </b>
               </i>
-              with an interest in <b className="blue">cybersecurity,</b> and beginner-level <b className="blue">Vulnerability Assessment</b> and <b className="blue">Penetration Testing</b> practices. I also think like a founder; balancing security, speed, cost, and scalability while building MVPs and platforms designed to grow with real users.
+              with an interest in <b className="blue">cybersecurity</b> and entry-level <b className="blue">Vulnerability Assessment and Penetration Testing</b> practices. I also think like a founder; balancing security, speed, cost, and scalability while building MVPs and platforms designed to grow with real users.
               <br />
               <br />
               Whenever possible, I love building projects with

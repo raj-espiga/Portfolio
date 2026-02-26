@@ -31,7 +31,14 @@ function App() {
   return (
     <Router>
       <Preloader load={load} />
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <div 
+        className="App" 
+        id={load ? "no-scroll" : "scroll"}
+        style={{
+          opacity: load ? 0 : 1,
+          transition: "opacity 0.5s ease-in 0.1s"
+        }}
+      >
         <Navbar />
         <ScrollToTop />
         <Routes>
