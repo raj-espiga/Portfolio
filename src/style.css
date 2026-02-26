@@ -18,7 +18,7 @@ html {
   --border-color: rgba(2, 6, 23, 0.12);
 }
 
-.purple {
+.blue {
   color: var(--imp-text-color) !important;
 }
 

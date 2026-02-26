@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/Ravatar.png";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -10,40 +10,38 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              <span className="blue">ABOUT ME</span>
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I’m a <b className="blue">Software Engineer</b> who enjoys turning ideas into reliable, scalable, and production-ready systems. I focus on building products that balance strong system design with practical user experience—tools that are efficient, maintainable, and built to grow.
               <br />
               <br />
-              I’m proficient in
+              My core technologies include
               <i>
-                <b className="purple">
+                <b className="blue">
                   {" "}
-                  C, JavaScript, TypeScript, Node.jsand PHP{" "}
+                  JavaScript, TypeScript, Node.js, and PHP,{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              with experience designing <b className="blue">
+                  RESTful APIs, backend services,</b> and <b className="blue">data-driven systems.</b> Recently, I’ve been building serverless and edge-based systems using <b className="blue">Cloudflare Workers</b> and its ecosystem.
               <br />
               <br />
-              My key areas of interest include developing
+              Beyond implementation, I focus on building
               <i>
-                <b className="purple">
+                <b className="blue">
                   {" "}
-                  Web Applications, AI Solutions, Problem Solving,{" "}
+                  secure systems{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              with an interest in <b className="blue">cybersecurity,</b> and beginner-level <b className="blue">Vulnerability Assessment</b> and <b className="blue">Penetration Testing</b> practices. I also think like a founder; balancing security, speed, cost, and scalability while building MVPs and platforms designed to grow with real users.
               <br />
               <br />
               Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+              <b className="blue"> Node.js </b> and modern frameworks like{" "}
               <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
+                <b className="blue">React.js</b> and{" "}
+                <b className="blue">Next.js</b>.
               </i>
             </p>
           </Col>
